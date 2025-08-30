@@ -19,7 +19,7 @@ A full-stack **Task Management (To-Do) application** built with **Node.js, Expre
 - **Backend:** Node.js, Express.js  
 - **Database:** MySQL (Aiven Cloud) – raw queries   
 - **Deployment Ready:** Configurable via environment variables  on Vercel
-
+   
 ---
 
 ## 🚀 Getting Started
