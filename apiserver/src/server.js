@@ -1,40 +1,3 @@
-/*import pool from './database/db.js';
-import dotenv from 'dotenv';
-import express from 'express';
-import cors from 'cors';
-import noteRouter from './routes/note.routes.js';
-dotenv.config();
-const app = express();
-const PORT = process.env.PORT;
-
-app.use(express.json());
-
-const alloworigin =[
-  'http://localhost:5173'
-];
-app.use(cors({
-  origin:alloworigin,
-  methods:["GET","POST", "PATCH","DELETE"],
-  credentials:true
-}))
-
-app.use('/api/notes',noteRouter);
-
-const startServer = async()=>{
-  try {
-    const conn = await pool.getConnection();
-    console.log("✅ MySQL connected successfully!");
-    conn.release();
-
-    app.listen(PORT,()=>{
-  console.log(`Server is running on http://localhost:${PORT}`)
-})
-  } catch (error) {
-    console.error("❌ Database connection failed:", error.message);
-    process.exit(1);
-  }
-}
-startServer();*/
 import pool from './database/db.js';
 import express from "express";
 import cors from "cors";
@@ -60,7 +23,6 @@ app.use(cors({
   credentials: true
 }));
 
-//app.use(ratelimiter);
 app.use("/api/notes", noteRouter);
 
 // ✅ Production: serve frontend build
