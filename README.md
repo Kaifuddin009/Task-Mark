@@ -1,7 +1,6 @@
 # Task Management API (To-Do App)
 
 A full-stack **Task Management (To-Do) application** built with **Node.js, Express, React.js, and MySQL** using **raw SQL queries**. The database is hosted on **Aiven**, showcasing cloud-based, production-ready design.
-
 ---
 
 ## ✨ Features
@@ -19,7 +18,7 @@ A full-stack **Task Management (To-Do) application** built with **Node.js, Expre
 - **Frontend:** React.js  
 - **Backend:** Node.js, Express.js  
 - **Database:** MySQL (Aiven Cloud) – raw queries   
-- **Deployment Ready:** Configurable via environment variables  
+- **Deployment Ready:** Configurable via environment variables  on Vercel
 
 ---
 
