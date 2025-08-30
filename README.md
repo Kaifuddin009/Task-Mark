@@ -33,5 +33,5 @@ A full-stack **Task Management (To-Do) application** built with **Node.js, Expre
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/kaifuddin009/task-management-api.git
-   cd Task-Mark
+   git clone https://github.com/Kaifuddin009/Task-Mark.git
+   cd todomysqlraw
