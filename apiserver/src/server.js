@@ -4,11 +4,13 @@ import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
 import noteRouter from './routes/note.routes.js';
+import { fileURLToPath } from 'url';
 
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT;
-const __dirname = path.resolve();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.resolve(__filename);
 
 app.use(express.json());
 
