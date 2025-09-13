@@ -23,10 +23,6 @@ app.use(cors({
   credentials: true
 }));
 
-app.use('/',(req, res)=>{
-res.send("API IS Working");
-});
-
 app.use("/api/notes", noteRouter);
 
 // ✅ Production: serve frontend build
@@ -51,4 +47,4 @@ const startServer = async()=>{
   }
 }
 startServer();
-export default app;
+
