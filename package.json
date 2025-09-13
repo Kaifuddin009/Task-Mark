@@ -1,0 +1,26 @@
+{
+  "name": "todomysqlraw",
+  "version": "1.0.0",
+  "description": "A full-stack **Task Management (To-Do) application** built with **Node.js, Express, React.js, and MySQL** using **raw SQL queries**. The database is hosted on **Aiven**, showcasing cloud-based, production-ready design. ---",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix apiserver && npm install --prefix client && npm run build --prefix client ",
+    "start": "npm run start --prefix apiserver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaifuddin009/Task-Mark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kaifuddin009/Task-Mark/issues"
+  },
+  "homepage": "https://github.com/Kaifuddin009/Task-Mark#readme",
+  "dependencies": {
+    "client": "^0.0.1",
+    "prefix": "^1.0.0"
+  }
+}
